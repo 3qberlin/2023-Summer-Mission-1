@@ -262,12 +262,7 @@ img {
 }
 
 .container {
-  max-width: 1272px;
-  margin: 0 auto;
-}
-
-.container2 {
-  max-width: 1450px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
