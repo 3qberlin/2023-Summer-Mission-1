@@ -261,4 +261,14 @@ img {
   line-height: 432px;
 }
 
+.container {
+  max-width: 1272px;
+  margin: 0 auto;
+}
+
+.container2 {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=all.css.map */
