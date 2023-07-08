@@ -1,57 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap");
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: "";
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
 body {
   margin: 0 auto;
-  font-family: "Castoro", serif;
+  font-family: 'Castoro', serif;
   line-height: 1.5;
   box-sizing: border-box;
   font-weight: 400;
@@ -60,31 +10,24 @@ body {
 .margin {
   margin: 0px;
 }
-
 .margin-auto {
   margin: 0 auto;
 }
-
 .margin-y-both {
   margin: 0px 312px;
 }
-
 .margin-top-5 {
   margin-top: 80px;
 }
-
 .margin-top-1 {
   margin-top: 16px;
 }
-
 .margin-top-3 {
   margin-top: 48px;
 }
-
-.margin-top-80px {
+.margin-top-80px{
   margin-top: 80px;
 }
-
 .margin-top-7 {
   margin-top: 112px;
 }
@@ -92,11 +35,9 @@ body {
 .padding-x-3 {
   padding: 48px 0px;
 }
-
 .padding-top-10 {
   padding-top: 160px;
 }
-
 .padding-y-both {
   padding: 0px 312px;
 }
@@ -104,35 +45,27 @@ body {
 .font-size {
   font-size: 16px;
 }
-
 .font-size-ss {
   font-size: 32px;
 }
-
 .font-size-base {
   font-size: 24px;
 }
-
 .font-size-sm {
   font-size: 60px;
 }
-
 .font-size-md {
   font-size: 96px;
 }
-
 .font-size-128 {
   font-size: 128px;
 }
-
 .font-size-lg {
   font-size: 160px;
 }
-
 .font-size-2 {
   font-size: 32px;
 }
-
 .font-size-8 {
   font-size: 128px;
 }
@@ -164,19 +97,15 @@ body {
 .width-100 {
   width: 100%;
 }
-
 .width-38 {
   width: 38%;
 }
-
 .width-50 {
   width: 50%;
 }
-
 .width-400px {
   width: 400px;
 }
-
 .width-636px {
   width: 636px;
 }
@@ -236,29 +165,22 @@ img {
   text-decoration: none;
   color: black;
 }
-
 .line-height-2 {
   line-height: 32px;
 }
-
 .line-height-3 {
   line-height: 48px;
 }
-
-.line-height-225 {
+.line-height-225{
   line-height: 36px;
 }
-
-.line-height-375 {
+.line-height-375{
   line-height: 60px;
 }
-
 .line-height-12 {
   line-height: 192px;
 }
-
 .line-height-27 {
   line-height: 432px;
 }
-
-/*# sourceMappingURL=all.css.map */
+/*# sourceMappingURL=style.css.map */

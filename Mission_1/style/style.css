@@ -52,6 +52,9 @@ body {
 .font-size-md {
   font-size: 96px;
 }
+.font-size-128 {
+  font-size: 128px;
+}
 .font-size-lg {
   font-size: 160px;
 }
@@ -95,6 +98,12 @@ body {
 .width-50 {
   width: 50%;
 }
+.width-400px {
+  width: 400px;
+}
+.width-3975 {
+  width: 39.75%;
+}
 
 .text-end {
   text-align: end;
@@ -105,6 +114,12 @@ body {
 }
 .line-height-3 {
   line-height: 48px;
+}
+.line-height-12 {
+  line-height: 192px;
+}
+.line-height-27 {
+  line-height: 432px;
 }
 
 .bg-color {
