@@ -31,7 +31,19 @@ body {
 .margin-top-7 {
   margin-top: 112px;
 }
+.margin-top-160px{
+  margin-top:160px;
+}
+.margin-left-auto{
+margin-left: auto;;
+}
+.margin-x-48px{
+  margin: 48px 0;
+}
 
+.padding-x-28px {
+  padding: 28px 0px;
+}
 .padding-x-3 {
   padding: 48px 0px;
 }
@@ -126,6 +138,10 @@ body {
   text-align: end;
 }
 
+.text-align-center{
+  text-align:center;
+}
+
 .bg-color {
   background-color: #efefef;
 }
@@ -171,6 +187,15 @@ footer img:nth-child(n) {
 img {
   max-width: 100%;
   height: auto;
+  display:block;
+}
+
+.display-block{
+  display:block;
+}
+
+.display-inline-block{
+  display:inline-block
 }
 
 .text-decoration-none {
@@ -197,7 +222,7 @@ img {
 }
 
 .container{
-  max-width:1272px;
+  max-width:1296px;
   margin:0 auto;
 }
 
