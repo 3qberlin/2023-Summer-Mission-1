@@ -185,6 +185,10 @@ body {
   width: 50%;
 }
 
+.width-96 {
+  width: 96%;
+}
+
 .width-400px {
   width: 400px;
 }
