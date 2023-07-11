@@ -1,0 +1,121 @@
+// screen
+// $screen-xxl:1550px;
+// $screen-xl:1200px;
+// $screen-lg:992px;
+// $screen-md:768px;
+// $screen-sm:576px;
+// $screen-sm:375px;
+
+@mixin rwd($screen-xxl) {
+  @media (max-width: $screen-xxl) {
+    @content;
+  }
+  @media (max-width: $screen-xl) {
+    @content;
+  }
+  @media (max-width: $screen-lg) {
+    @content;
+  }
+  @media (max-width: $screen-md) {
+    @content;
+  }
+  @media (max-width: $screen-sm) {
+    @content;
+  }
+  @media (max-width: $screen-ss) {
+    @content;
+  }
+}
+
+@mixin show(
+  $screen-ss
+) {
+  @media (min-width: $screen-ss) {
+    @content;
+  }
+  @media (min-width: $screen-sm) {
+    @content;
+  }
+  @media (min-width: $screen-md) {
+    @content;
+  }
+  @media (min-width: $screen-lg) {
+    @content;
+  }
+  @media (min-width: $screen-xl) {
+    @content;
+  }
+  @media (min-width: $screen-xxl) {
+    @content;
+  }
+}
+
+.menu-mb{
+  @include show($screen-lg){
+    display:none;
+  }
+}
+
+.menu{
+  @include rwd($screen-md){
+    display:none;
+  }
+}
+.introduce {
+  left: 60%;
+  top: 25vh;
+  width: 22%;
+  @include rwd($screen-xxl) {
+    left: auto;
+    top: 0vh;
+    margin: 20% 20%;
+    padding: 0% 20%;
+    width: auto;
+  }
+  @include rwd($screen-xl) {
+    margin: 12% 20%;
+    padding: 0% 20%;
+  }
+  @include rwd($screen-lg) {
+    padding: 0% 10% 0% 0%;
+  }
+  @include rwd($screen-md) {
+    padding: 0% 3%;
+    margin: 10% 9%;
+  }
+  @include rwd($screen-sm) {
+    padding: 0% 10%;
+    margin: 15% 8%;
+  }
+  @include rwd($screen-ss) {
+    padding: 0% 0%;
+    margin: 35vh 15px;
+  }
+}
+.introduce h2 {
+  @include rwd($screen-ss) {
+    font-size: $size * 2;
+    line-height: $size * 3;
+  }
+}
+.introduce p {
+  @include rwd($screen-lg) {
+    width: 100%;
+  }
+  @include rwd($screen-ss) {
+    font-size: $size * 1.25;
+    line-height: $size * 1.875;
+  }
+}
+.introduce a {
+  @include rwd($screen-ss) {
+    margin: 0 auto;
+    padding: 13px 106px;
+    margin-top: 13px;
+  }
+}
+.logo{
+  @include rwd($screen-ss){
+    margin-left:24px;
+  }
+}

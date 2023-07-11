@@ -1,0 +1,48 @@
+// active
+.active- {
+  &page {
+    border-bottom: 1px solid $color-lightBrown;
+    color: $color-lightBrown;
+  }
+}
+
+// hover
+.hover- {
+  &page:hover {
+    border-bottom: 1px solid $color-lightBrown;
+    color: $color-lightBrown;
+  }
+  &nav:hover {
+    color: $color-black;
+  }
+  &button- {
+    &white:hover {
+      border: $color-white 2px solid;
+      color:$color-white;
+    }
+    &brwon:hover {
+      border: $color-brown 1px solid;
+      background-color: $color-brown;
+    }
+  }
+}
+
+// decoration
+.decoration-none {
+  text-decoration: none;
+}
+
+// menu-mb
+.number::after{
+  content:'3';
+  position:absolute;
+  width:14px;
+  height:14px;
+  border-radius: 50%;
+  background-color: $color-brown;
+  top:-4px;
+  left:12px;
+  color:$color-white;
+  font-size: 4px;
+  text-align:center;
+}
