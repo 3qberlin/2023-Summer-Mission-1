@@ -905,46 +905,94 @@ input {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 576px) {
   .introduce a {
     margin: 0 auto;
-    padding: 13px 106px;
+    padding: 13px 80px;
     margin-top: 13px;
+    padding: 14px 90px;
+    line-height: 34px;
+    font-size: 28px;
   }
 }
 @media (max-width: 1200px) {
   .introduce a {
     margin: 0 auto;
-    padding: 13px 106px;
+    padding: 13px 80px;
     margin-top: 13px;
+    padding: 14px 90px;
+    line-height: 34px;
+    font-size: 28px;
   }
 }
 @media (max-width: 992px) {
   .introduce a {
     margin: 0 auto;
-    padding: 13px 106px;
+    padding: 13px 80px;
     margin-top: 13px;
+    padding: 14px 90px;
+    line-height: 34px;
+    font-size: 28px;
   }
 }
 @media (max-width: 768px) {
   .introduce a {
     margin: 0 auto;
-    padding: 13px 106px;
+    padding: 13px 80px;
     margin-top: 13px;
+    padding: 14px 90px;
+    line-height: 34px;
+    font-size: 28px;
   }
 }
 @media (max-width: 576px) {
   .introduce a {
     margin: 0 auto;
-    padding: 13px 106px;
+    padding: 13px 80px;
     margin-top: 13px;
+    padding: 14px 90px;
+    line-height: 34px;
+    font-size: 28px;
   }
 }
 @media (max-width: 375px) {
   .introduce a {
     margin: 0 auto;
-    padding: 13px 106px;
+    padding: 13px 80px;
     margin-top: 13px;
+    padding: 14px 90px;
+    line-height: 34px;
+    font-size: 28px;
+  }
+}
+@media (max-width: 375px) {
+  .introduce a {
+    padding: 14px 70px;
+  }
+}
+@media (max-width: 1200px) {
+  .introduce a {
+    padding: 14px 70px;
+  }
+}
+@media (max-width: 992px) {
+  .introduce a {
+    padding: 14px 70px;
+  }
+}
+@media (max-width: 768px) {
+  .introduce a {
+    padding: 14px 70px;
+  }
+}
+@media (max-width: 576px) {
+  .introduce a {
+    padding: 14px 70px;
+  }
+}
+@media (max-width: 375px) {
+  .introduce a {
+    padding: 14px 70px;
   }
 }
 
@@ -980,7 +1028,7 @@ input {
 }
 
 .product {
-  margin-top: 10800px;
+  margin-top: 1080px;
 }
 @media (max-width: 1550px) {
   .product {
@@ -1014,32 +1062,32 @@ input {
 }
 @media (max-width: 1200px) {
   .product {
-    margin-top: 750px;
+    margin-top: 540px;
   }
 }
 @media (max-width: 1200px) {
   .product {
-    margin-top: 750px;
+    margin-top: 540px;
   }
 }
 @media (max-width: 992px) {
   .product {
-    margin-top: 750px;
+    margin-top: 540px;
   }
 }
 @media (max-width: 768px) {
   .product {
-    margin-top: 750px;
+    margin-top: 540px;
   }
 }
 @media (max-width: 576px) {
   .product {
-    margin-top: 750px;
+    margin-top: 540px;
   }
 }
 @media (max-width: 375px) {
   .product {
-    margin-top: 750px;
+    margin-top: 540px;
   }
 }
 
@@ -1269,37 +1317,37 @@ input {
 @media (max-width: 576px) {
   .subscribe {
     margin-top: 30%;
-    margin-left: 10%;
+    margin-left: 2%;
   }
 }
 @media (max-width: 1200px) {
   .subscribe {
     margin-top: 30%;
-    margin-left: 10%;
+    margin-left: 2%;
   }
 }
 @media (max-width: 992px) {
   .subscribe {
     margin-top: 30%;
-    margin-left: 10%;
+    margin-left: 2%;
   }
 }
 @media (max-width: 768px) {
   .subscribe {
     margin-top: 30%;
-    margin-left: 10%;
+    margin-left: 2%;
   }
 }
 @media (max-width: 576px) {
   .subscribe {
     margin-top: 30%;
-    margin-left: 10%;
+    margin-left: 2%;
   }
 }
 @media (max-width: 375px) {
   .subscribe {
     margin-top: 30%;
-    margin-left: 10%;
+    margin-left: 2%;
   }
 }
 
