@@ -50,11 +50,13 @@ table {
 }
 
 body {
-  margin: 0 auto;
   font-family: "Castoro", serif;
   line-height: 1.5;
   box-sizing: border-box;
-  font-weight: 400;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
 }
 
 .margin {
@@ -130,7 +132,7 @@ body {
 }
 
 .font-size-sm {
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .font-size-md {
@@ -230,7 +232,7 @@ body {
 }
 
 .border-bottom {
-  border-bottom: 4px solid #ae0000;
+  border-bottom: 3px solid #ae0000;
   line-height: 40px;
 }
 
@@ -239,7 +241,7 @@ body {
 }
 
 .nots p:not(last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .mt li:nth-child(1) {
@@ -252,6 +254,8 @@ body {
 
 .container small:nth-of-type(n) {
   font-style: italic;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .awards li:nth-of-type(n) {
@@ -290,10 +294,6 @@ img {
   line-height: 48px;
 }
 
-.line-height-225 {
-  line-height: 36px;
-}
-
 .line-height-375 {
   line-height: 60px;
 }
@@ -309,6 +309,14 @@ img {
 .container {
   max-width: 1296px;
   margin: 0 auto;
+}
+
+.letter-spacing {
+  letter-spacing: 1rem;
+}
+
+.letter-spacing-sm {
+  letter-spacing: 0.5rem;
 }
 
 /*# sourceMappingURL=all.css.map */
