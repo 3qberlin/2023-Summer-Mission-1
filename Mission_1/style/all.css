@@ -79,6 +79,10 @@ body {
   margin-top: 16px;
 }
 
+.mt-12 {
+  margin-top: 12px;
+}
+
 .margin-top-3 {
   margin-top: 48px;
 }
@@ -241,7 +245,7 @@ body {
 }
 
 .nots p:not(last-child) {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .mt li:nth-child(1) {
@@ -256,10 +260,6 @@ body {
   font-style: italic;
   font-size: 20px;
   line-height: 30px;
-}
-
-.awards li:nth-of-type(n) {
-  margin-bottom: 20px;
 }
 
 footer img:nth-child(n) {
